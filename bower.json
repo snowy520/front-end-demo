@@ -1,8 +1,28 @@
 {
-  "name": "test1",
+  "name": "front-end-demo",
+  "description": "front-end demo",
+  "main": "index.html",
+  "authors": [
+    "xueliming <liming.snowy@gmail.com>"
+  ],
+  "license": "",
+  "keywords": [
+    "front-end"
+  ],
+  "homepage": "https://github.com/snowy520/front-end-demo",
   "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
   "dependencies": {
-    "bootstrap": "~3.2.0",
-    "modernizr": "~2.8.2"
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.0",
+    "underscore": "^1.8.3",
+    "crypto-js": "^3.1.6",
+    "lodash": "^4.15.0"
   }
 }
