@@ -2,13 +2,26 @@
   "name": "front-end-demo",
   "version": "1.0.0",
   "description": "front-end demo",
-  "main": "Gruntfile.js",
+  "main": "gulpfile.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {},
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "babel-loader": "^6.2.4",
+    "coffee-loader": "^0.7.2",
+    "css-loader": "^0.23.1",
+    "eslint": "^3.1.1",
+    "eslint-config-google": "^0.6.0",
+    "file-loader": "^0.8.5",
+    "jsx-loader": "^0.13.2",
+    "less-loader": "^2.2.3",
+    "moment": "^2.13.0",
+    "sass-loader": "^3.2.0",
+    "source-map-loader": "^0.1.5",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7"
   },
   "scripts": {
     "test": "grunt test"
