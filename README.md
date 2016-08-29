@@ -3,6 +3,8 @@ front-end-demo
 
 front-end-demo
 
+npm镜像
+镜像 --registry = https://registry.npm.taobao.org
 
 "devDependencies": {
     "apache-server-configs": "^2.7.1",
