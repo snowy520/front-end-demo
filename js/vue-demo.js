@@ -28,3 +28,6 @@ new Vue({
     }
   }
 });
+
+var MyComponent = Vue.extend({});
+var myComponentInstance = new MyComponent();
